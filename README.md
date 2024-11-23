@@ -27,3 +27,9 @@
 ### [Select unique values](./task3_uniqueValues.png)
 
 ![task3_uniqueValues](./task3_uniqueValues.png)
+
+## Task 4
+
+### [Find the number of products between 20 and 100](./task4_sum.png)
+
+![task4_sum](./task4_sum.png)
