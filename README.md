@@ -4,6 +4,10 @@
 
 ![Create DB](./createdb.png)
 
+### [Commands](./HW3_SQL_commands.txt)
+
+![HW3_SQL_commands.txt](./HW3_SQL_commands.txt)
+
 ## Task 1.1
 
 ### [Select all columns from table products](./task1.1_selectAll.png)
@@ -36,6 +40,6 @@
 
 ## Task 5
 
-### [Find for each supplier the NUM of products and AVG price](./task5_suppliersSum.png)
+### [Find for each supplier the NUM of products and AVG price](./task5_supplierSum.png)
 
-![task5_suppliersSum](./task5_suppliersSum.png)
+![task5_supplierSum](./task5_supplierSum.png)
