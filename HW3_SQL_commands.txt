@@ -1,0 +1,63 @@
+HW3_SQL_commands
+
+------------------------------------------------------------------------------------------
+
+# Task 1.1
+
+-- select all columns from table products
+SELECT * FROM products;
+
+------------------------------------------------------------------------------------------
+
+# Task 1.2
+
+-- select only columns name, phone from table shippers
+SELECT name, phone FROM shippers;
+
+------------------------------------------------------------------------------------------
+
+# Task 2
+
+-- find the average, maximum, and minimum value
+-- of the price column of the products table
+SELECT
+    ROUND(AVG(price),2) AS average,
+    MAX(price) AS maximum,
+    MIN(price) AS minimum
+FROM products
+
+------------------------------------------------------------------------------------------
+
+# Task 3
+
+-- select unique values ​​for the category_id and price columns of the products table
+-- select the display order in descending order of price and select only 10 rows
+SELECT DISTINCT category_id, price 
+FROM products
+ORDER BY price DESC
+LIMIT 10;
+
+------------------------------------------------------------------------------------------
+
+# Task 4
+
+-- find the number of products (rows)
+-- that are in the price range from 20 to 100
+SELECT COUNT(*) AS sum FROM products
+WHERE price BETWEEN 20 AND 100;
+
+------------------------------------------------------------------------------------------
+
+# Task 5
+
+-- find the number of products (rows) and 
+-- the average price (price) for each supplier (supplier_id)
+SELECT DISTINCT supplier_id AS Suppliers,
+    COUNT(*) AS Products_number,
+    ROUND(AVG(price), 2) AS Average_price
+    FROM products
+GROUP BY supplier_id;
+
+------------------------------------------------------------------------------------------
+
+
