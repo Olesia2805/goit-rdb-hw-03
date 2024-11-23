@@ -15,3 +15,9 @@
 ### [select only columns name, phone from table shippers](./task1.2_selectSelected.png)
 
 ![task1.2_selectSelected](./task1.2_selectSelected.png)
+
+## Task 2
+
+### [find the average, maximum, and minimum value](./task2_AvgMaxMin.png)
+
+![task2_AvgMaxMin](./task2_AvgMaxMin.png)
