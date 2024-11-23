@@ -33,3 +33,9 @@
 ### [Find the number of products between 20 and 100](./task4_sum.png)
 
 ![task4_sum](./task4_sum.png)
+
+## Task 5
+
+### [Find for each supplier the NUM of products and AVG price](./task5_suppliersSum.png)
+
+![task5_suppliersSum](./task5_suppliersSum.png)
